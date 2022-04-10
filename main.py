@@ -7,6 +7,8 @@
 user_choose_variable = 0
 ProgrammIsActive = True
 
+name = "Sasha"
+
 # Menu Main Code
 print("### WELCOME ###")
 while ProgrammIsActive:
