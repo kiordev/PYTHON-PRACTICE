@@ -1,14 +1,17 @@
-#Tesing Application:
+# Testing Error Program:
+# Creator: Alexandr Kior kiordev@gmail.com
+# Data: 10 APRIL 22
 
-default_array = [1,2,3]
-num_to_find = int(input("Введите число, которое нужно найти: "))
-counter = 0
-for counter in default_array:
-    if num_to_find == counter:
-        print("Число нашли, индекс: ", counter)
-        default_array.pop(counter-1)
-    else:
-        print("Такой хуйни нет")
 
-for i in default_array:
-    print(i)
+user_shoot_cordinate = [0, 0]
+battleship_axis_x = [5, 5, 5]
+
+user_shoot_cordinate[0] = int(input("Enter the x cordinate: "))
+user_shoot_cordinate[1] = int(input("Enter the y cordinate: "))
+print("Your cordinate: ", "x: ", user_shoot_cordinate[0], "y: ", user_shoot_cordinate[1])
+count = 0
+for count in battleship_axis_x:
+    if user_shoot_cordinate[0] == count:
+        First_Shoot = True
+        print("ОТЛАДКА: ", count, user_shoot_cordinate[0])
+        battleship_axis_x.remove(count)
