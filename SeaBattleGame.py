@@ -1,7 +1,6 @@
 # First(1) Program: SeaBattle Game
 # Creator: Alexandr Kior kiordev@gmail.com
-# Data: 10 APRIL 22
-
+# Data: 10 APRIL 2022
 
 # Gamefield creating 10x10:
 min_x_axis = 1;
