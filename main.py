@@ -1,6 +1,7 @@
 # Main Python File Application
 # Creator: Alexandr Kior kiordev@gmail.com
-# Data: 10 APRIL 22
+# Creation Data: 10 APRIL 22
+# Last Update: 11 APRIL 22
 
 
 # Variables for Control
