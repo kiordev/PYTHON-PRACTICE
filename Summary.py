@@ -16,5 +16,8 @@
 # default.count(*something*) | Show count of *something* in Array
 # len(default) | Show Length of Array
 
+# ========= String Functions =========
+# word = "default"
+
 # ========= Other =========
 # exec(open('filename.py').read()) | Start another python script in terminal
