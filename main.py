@@ -1,4 +1,4 @@
-# Main Python File Application
+# Main Python File Applicationn
 # Creator: Alexandr Kior kiordev@gmail.com
 # Creation Data: 10 APRIL 22
 # Last Update: 11 APRIL 22
