@@ -33,7 +33,7 @@
 #             print("Value_Check has value < 0")
 #     return wrapper
 #
-# @validator | Собачка + название функции, позволяет понять валидатору про какую func идёт речь
+# @validator | Собачка + название функции валидатора, позволяет понять валидатору про какую func идёт речь
 # def value_check(value):
 #     value += 1
 #     print("Value + 1: ", value)

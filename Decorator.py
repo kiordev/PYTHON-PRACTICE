@@ -11,7 +11,7 @@ def url_cheking(func):
         if "." in url:
             func(url)
         else:
-            print("Вы ввели неправильный адрес")
+            print("Вы ввели неправильный адрес, нет точки")
     return wrapper
 
 
